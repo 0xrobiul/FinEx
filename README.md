@@ -16,7 +16,7 @@
 </p>
 <h1 align="center">
   <br>
-  <a href="https://github.com/0xrobiul/FinEx"><img src="https://i.imgur.com/hcmPz5l.png" alt="FinEx"></a>
+  <a href="https://github.com/0xrobiul/FinEx"><img src="https://i.imgur.com/VbLnWXB.png" alt="FinEx"></a>
   <br>
   <br>
 </h1>
