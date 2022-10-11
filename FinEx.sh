@@ -24,13 +24,13 @@ do
                 l) limit=${OPTARG}
                   export LIMIT=${OPTARG}
                          ;;
-                ?) echo '''Invalid option, Try As "./FinEx.sh -s CVE-2021-41349 -l 1" '''
+                ?) echo '''Invalid option, Try As "./FinEx.sh -s CVE-2021-41349 -l 1" [Default 10]'''
           		   exit 1
 			 ;;
         esac
 done
 if [[ -z "$ID" ]]; then
-  echo '''CVE Number Not Provided, Try As "./FinEx.sh -s CVE-2021-41349 -l 1 '''
+  echo '''CVE Number Not Provided, Try As "./FinEx.sh -s CVE-2021-41349 -l 1 [Default 10]'''
   exit 1
 elif [[ -n "$ID" ]]; then
   echo -e "${GREEN}Searching for $ID ...${Cyan}"
